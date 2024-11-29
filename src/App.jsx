@@ -71,12 +71,12 @@ import { useRef } from "react";
 //   );
 }
   // the use of useEffects
-  export default function chatroom () {
-    useEffect(() => {
-      const connection = createConnection ();
-      connection.connect ();
-      return ()=>connection.disconnect();
+  // export default function chatroom () {
+  //   useEffect(() => {
+  //     const connection = createConnection ();
+  //     connection.connect ();
+  //     return ()=>connection.disconnect();
 
-    }, []) ;
-    return <h1>Welcome to the chat room  </h1>
-  }
+  //   }, []) ;
+  //   return <h1>Welcome to the chat room  </h1>
+  // }
