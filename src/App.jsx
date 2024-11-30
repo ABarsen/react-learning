@@ -69,14 +69,15 @@ import { useRef } from "react";
 //     <button onclick= {handleclick}> hey dzady </button>
 //     </>
 //   );
-}
-  // the use of useEffects
-  // export default function chatroom () {
-  //   useEffect(() => {
-  //     const connection = createConnection ();
-  //     connection.connect ();
-  //     return ()=>connection.disconnect();
 
-  //   }, []) ;
-  //   return <h1>Welcome to the chat room  </h1>
-  // }
+  the use of useEffects
+  export default function chatroom () {
+    useEffect(() => {
+      const connection = createConnection ();
+      connection.connect ();
+      return ()=>connection.disconnect();
+
+    }, []) ;
+    return <h1>Welcome to the chat room  </h1>
+  }
+  
